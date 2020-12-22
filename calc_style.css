@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 body {
     background-color:#ffcf00;
     display: flex;
@@ -31,6 +32,13 @@ body {
     grid-column-start: 1;
     grid-column-end: 5;
     border-radius: 20px;
+    font-family: "Orbitron", Arial, serif;
+    font-size: 2em;
+    color: #daff7d;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2%
 }
 
 .calc_background .button {
