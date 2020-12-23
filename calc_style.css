@@ -38,7 +38,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    padding: 2%
+    padding: 2%;
+    overflow: hidden;
+}
+
+#display p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: right;
 }
 
 .calc_background .button {
@@ -48,6 +55,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#display p {
+    max-height: 140px;
+    text-overflow: ellipsis;
 }
 
 .calc_background .button p {

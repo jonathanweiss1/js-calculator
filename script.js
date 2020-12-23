@@ -17,13 +17,13 @@ function clicked(e){
     switch(buttonText){
         //delete current input
         case 'CE':
-            display.textContent = ''
+            display.firstChild.textContent = ''
             break;
         case '=':
-            display.textContent = eval(display.textContent)
+            display.firstChild.textContent = eval(display.firstChild.textContent)
             break;
         default:
-            display.textContent += buttonText;
+            display.firstChild.textContent += buttonText;
             break;
     }
 }
